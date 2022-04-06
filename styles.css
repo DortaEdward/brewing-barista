@@ -1,0 +1,80 @@
+.game-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.ingredient-container{
+  position: absolute;
+  top:86%;
+  left:55%;
+  display: flex;
+}
+.cafe-background{
+  margin-top:18rem;
+  transform: scale(2);
+}
+
+.ingredient-cube{
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  width: 55px;
+  height: 55px;
+  margin: 0 0.1rem;
+  color:red
+}
+
+.milk{
+  background: white;
+}
+.water{
+  background: rgb(44, 167, 255);
+}
+.espresso{
+  background: rgb(103, 46, 5);
+}
+.syrup{
+  background: rgb(225, 185, 23);
+}
+.coffee{
+  background: black;
+}
+
+.active{
+  border: dashed rgb(255, 0, 0) 3px;
+}
+
+.order-board{
+  position: absolute;
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  top:30%;
+  right:25%;
+}
+
+.order-board h1{
+  margin: 1rem auto;
+  color:white;
+}
+
+.start-menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  margin-top:18rem;
+  width:1040px;
+  height:640px;
+  z-index: 2;
+  font-size: 2rem;
+  font-weight: 600;
+  position: absolute;
+  top: 26.2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
